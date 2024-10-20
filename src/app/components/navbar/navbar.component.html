@@ -13,6 +13,16 @@
                 <span class="navbar-title">University of Belgrade</span>
                 <span class="navbar-subtitle">Faculty of Organizational Sciences</span>
             </div>
+
         </div>
+        <mat-form-field>
+            <mat-label>Choose language:</mat-label>
+            <mat-select [(value)]="selected">
+              <mat-option value="lat">Srpski(lat)</mat-option>
+              <mat-option value="cyr">Srpski(cyr)</mat-option>
+              <mat-option value="eng">Engleski</mat-option>
+
+            </mat-select>
+          </mat-form-field>
     </div>
 </div>
